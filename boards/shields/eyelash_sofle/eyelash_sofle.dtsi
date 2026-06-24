@@ -43,6 +43,8 @@
     kscan0: kscan {
         wakeup-source;
         diode-direction = "col2row";
+        debounce-press-ms = <6>;
+        debounce-release-ms = <8>;
     };
 
     ext-power {
